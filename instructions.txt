@@ -1,0 +1,13 @@
+Instructions for Running the MapReduce Chess Piece Validator
+
+1. Ensure that Hadoop is installed and configured on your system.
+2. Place the input file (chess_input.txt) in the HDFS input directory:
+   hdfs dfs -put chess_input.txt /input/chessinput.txt
+3. Compile the Java program:
+   javac -classpath $(/usr/local/hadoop/bin/hadoop classpath) -d . ChessPieceValidator.java
+4. Create the JAR file:
+   jar cf chesspiecevalidator.jar ChessPieceValidator*.class
+5. Run the MapReduce job:
+   hadoop jar chesspiecevalidator.jar ChessPieceValidator /input/chessinput.txt /output/chessoutput
+6. View the output:
+   hdfs dfs -cat /output/chessoutput/part-r-00000

@@ -1,0 +1,46 @@
+WHITE PIECES:
+Valid starting positions:
+White Rook in [A1]
+White Pawn in [B2]
+White Pawn in [A2]
+White Pawn in [H2]
+White Bishop in [F1]
+White Pawn in [G2]
+White King in [E1]
+White Pawn in [F2]
+White Queen in [D1]
+White Pawn in [E2]
+White Pawn in [D2]
+White Pawn in [C2]
+Valid non-starting positions:
+White Pawn in [B1]
+Conflicting positions:	null
+Invalid positions (not on board):	null
+Missing pieces (regardless of positional validity):
+1 missing White Bishop
+2 missing White Knight
+1 missing White Rook
+Extra pieces (regardless of positional validity):
+1 extra White Pawn
+BLACK PIECES:
+Valid starting positions:
+Black Knight in [G8]
+Black Bishop in [F8]
+Black Pawn in [E7]
+Black King in [E8]
+Black Pawn in [D7]
+Black Pawn in [C7]
+Black Bishop in [C8]
+Black Pawn in [B7]
+Black Knight in [B8]
+Black Pawn in [A7]
+Black Rook in [A8]
+Valid non-starting positions:
+Black Knight in [H6]
+Conflicting positions:	[Black Queen in [D8] at the same time, Black Pawn in [D8] at the same time]
+Invalid positions (not on board):	[Black Pawn at F19]
+Missing pieces (regardless of positional validity):
+2 missing Black Pawn
+1 missing Black Rook
+Extra pieces (regardless of positional validity):
+1 extra Black Knight
